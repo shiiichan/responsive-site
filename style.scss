@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #ccc;
+$keyColor: #999;
+$fontColor: #333;
+
+
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+  color: $fontColor;
+  font-size: 1.4rem;
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em; 
+  background-color: $baseColor;
+}
+
+h1{color:$keyColor;
+  
+   font-size:2.8rem;
+   font-weight:900;
+   margin: 30px 0 30px 0;
+  
+  }
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #696969; }
+
+a { text-decoration: none; }
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 60px;
+  .inbox{
+    margin:0;
+    padding-top:15px;
+    background-color:$subColor;
+  }
+  .inbox2{
+    margin:0;
+    padding: 20px 0;
+    background-color:$keyColor;
+    p{
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+  }
+    @media (max-width: 768px) {
+  
+    flex-direction: column;
+  
+}
+}
+
+#section1{
+  padding: 20px 0;
+}
+
+ .text-center{
+    text-align:center;
+ }
+ 
+ #contact{
+  padding: 20px 0 60px 0;
+  margin-top: 30px;
+  background-color:$subColor;
+  
+
+ 
+  .button-contact {
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color:$keyColor;
+    border: 2px solid $keyColor;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+ 
+}
+
+ }
+
+
+.box {
+  margin: 10px;
+  flex: 1;
+  
+  @media(max-width: 768px){
+    color: #fff;
+  }
+}
+
+
+.flexible-images {
+  max-width: 100%;
+  max-height: 500px;
+  @media (max-width: 768px) {
+     
+      max-width: 100%;
+      max-height: 250px;
+  
+}
+}
+
+
+
