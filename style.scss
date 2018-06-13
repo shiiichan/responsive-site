@@ -68,7 +68,16 @@ a { text-decoration: none; }
   
 }
 }
-
+#top_img{
+  background-image: url("img/sora_1.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  @media(max-width: 768px){
+     height: 250px;
+  }
+}
 #section1{
   padding: 20px 0;
 }
@@ -112,17 +121,6 @@ a { text-decoration: none; }
   }
 }
 
-
-.flexible-images {
-  max-width: 100%;
-  max-height: 500px;
-  @media (max-width: 768px) {
-     
-      max-width: 100%;
-      max-height: 250px;
-  
-}
-}
 
 
 

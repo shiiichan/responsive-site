@@ -50,6 +50,16 @@ a {
     .container {
       flex-direction: column; } }
 
+#top_img {
+  background-image: url("img/sora_1.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 768px) {
+    #top_img {
+      height: 250px; } }
+
 #section1 {
   padding: 20px 0; }
 
@@ -80,13 +90,5 @@ a {
   @media (max-width: 768px) {
     .box {
       color: #fff; } }
-
-.flexible-images {
-  max-width: 100%;
-  max-height: 500px; }
-  @media (max-width: 768px) {
-    .flexible-images {
-      max-width: 100%;
-      max-height: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
